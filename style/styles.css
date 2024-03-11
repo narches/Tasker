@@ -1,0 +1,102 @@
+    @import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        font-family: Onest, Courier New, Good Vibes monospace, Arial, sans-serif;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color:black;
+        background-image: linear-gradient(135deg, white, black, green);
+        color:#09df17;
+    }
+    
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    main {
+        margin: 1rem auto;
+        border: 2px solid  #09df179f;
+        padding: 4rem;
+        background-color: rgba(0, 0, 0, 0.371);
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        color: white;
+        position: static;
+        
+    }
+
+    input{
+        border-radius: 5px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.371);
+    }
+
+    input,
+    button {
+        padding: 0.5rem;
+        border: 1px solid #09df17;
+    }
+    button {
+        margin: 0.5rem;
+        background-color: #09df17;
+        color: black;
+        border-radius: 20px;
+    }
+    button:hover {
+        background-color: black;
+        color: #09df17;
+    }
+
+    input:hover {
+        border: 1px solid #09df17;
+        background-color: rgba(0, 0, 0, 0.371);
+    }
+
+    .delete {
+        width: fit-content;
+    }
+        
+    .input {
+        display: flex;
+        gap: 1rem;
+        border: 1px solid#09df17;
+    }
+
+    .list {
+        padding: 0.3rem;
+    }
+        
+    ul {
+        margin: 1rem;
+        list-style: none;
+    }
+        
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    h2 {
+        margin: 0;
+        color: #09df17
+    }
+
+
+
+    @media screen and (max-width: 500px) {
+        main {
+            display: flex;
+            flex-direction: column;
+            max-width: 50%;
+            margin: 0 auto;
+        }
+    }
