@@ -2,8 +2,7 @@
 
 # **Overview**
 
-Tasker is a simple "to-do list" software that was created with HTML, CSS and Javascript with the aim of recording tasks easily and efficiently . The purpose of this program is to make task records available for storage, manipulation, and retrieval when needed.
-Tasker can also provide productivity insights and tracking tools to help one stay on top of their responsibilities, hence making it possible for users and teams to efficiently manage time.
+Tasker is a simple "to-do list" software that was created with HTML, CSS and Javascript with the aim of recording tasks easily and efficiently . The purpose of this program is to make task records available for storage, manipulation, and retrieval when needed. Tasker can also provide productivity insights and tracking tools to help one stay on top of their responsibilities, hence making it possible for users and teams to efficiently manage time.
 
 
 [Software Demo Video](https://youtu.be/TgCo3Hf5vDM?si=hfWHDxp87n76J5Z4)
@@ -43,5 +42,5 @@ amount, interest rate, and loan term.
 * [W3Schools-CSS](https://www.w3schools.com/css/default.asp)
 * [W3Schools-JS](https://www.w3schools.com/js/default.asp)
 * [Visual Studio Code](https://code.visualstudio.com/docs/editor/versioncontrol)
-* [GITHUB](https://github.com)
+* [Github](https://github.com)
 

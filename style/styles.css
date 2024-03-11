@@ -3,6 +3,8 @@
         padding: 0;
         margin: 0;
     }
+    
+    /* Body Design */
     body {
         font-family: Onest, Courier New, Good Vibes monospace, Arial, sans-serif;
         height: 100vh;
@@ -20,6 +22,8 @@
         margin: 0 auto;
     }
 
+
+    /* Main Design */
     main {
         margin: 1rem auto;
         border: 2px solid  #09df179f;
@@ -33,9 +37,15 @@
         
     }
 
+    /* Input/Button Design */
     input{
         border-radius: 5px;
         color: white;
+        background-color: rgba(0, 0, 0, 0.371);
+    }
+
+    input:hover {
+        border: 1px solid #09df17;
         background-color: rgba(0, 0, 0, 0.371);
     }
 
@@ -55,10 +65,6 @@
         color: #09df17;
     }
 
-    input:hover {
-        border: 1px solid #09df17;
-        background-color: rgba(0, 0, 0, 0.371);
-    }
 
     .delete {
         width: fit-content;
@@ -92,6 +98,7 @@
 
 
 
+        /* Media Query Design */
     @media screen and (max-width: 500px) {
         main {
             display: flex;

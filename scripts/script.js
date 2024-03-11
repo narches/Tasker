@@ -7,6 +7,7 @@ chaptersArray.forEach(element => {
     displayList(element);
 });
 
+// Button
 button.addEventListener('click', () => {
     if (input.value !== '') {
         displayList(input.value);
@@ -17,6 +18,7 @@ button.addEventListener('click', () => {
     }
 });
 
+    // Data Deleting Logic
 function displayList(item) {
     const li = document.createElement('li');
     const deleteButton = document.createElement('button');
